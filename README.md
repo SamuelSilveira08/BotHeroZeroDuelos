@@ -1,7 +1,7 @@
 English:
 
-1. Download Python 3.7.x
-2. Install Python 3.7.x (select add PATH variable option on installing)
+1. Download Python 3.8.7 at https://www.python.org/downloads/release/python-387/
+2. Install Python 3.8.7 (select add PATH variable option on installing)
 3. Press windows + R, type 'cmd' and press enter
 4. Type 'pip install -r requirements.txt'
 5. Navigate to the code folder, using cd command:
@@ -17,7 +17,7 @@ English:
 
 Português:
 
-1. Faça o Download do Python 3.7.x (x pode ser qualquer número)
+1. Faça o Download do Python 3.8.7 em https://www.python.org/downloads/release/python-387/
 2. Instale o Python que você baixou, marcando a opção de adicionar python à variável PATH
 3. Aperta Windows + R, digite 'cmd' e aperte Enter
 4. Navegue até a pasta do bot, usando o comando cd:
