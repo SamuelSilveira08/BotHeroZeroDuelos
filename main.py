@@ -6,7 +6,6 @@ from itertools import repeat
 def click_btn(img, timeout=6):
     start = time.time()
     while True:
-        print('looking for {0}'.format(img))
         pos = pyautogui.locateCenterOnScreen(img, confidence=0.7)
         if pos is not None:
             pyautogui.moveTo(pos, duration=0.6)
