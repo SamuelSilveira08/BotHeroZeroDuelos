@@ -41,7 +41,8 @@ def attack(players):
         click_btn('img/attack-btn.png')
         click_btn('img/ok-btn.png')
         click_btn('img/discount.png')
-        pyautogui.click()
+        click_btn('img/catch-btn.png')
+        click_btn('img/close-btn.png')
         count += 1
         if count == 3:
             count = 0
@@ -54,6 +55,7 @@ def load_players(file):
     return players
 
 
-players = load_players('players.txt')
-players = map(lambda player: player.rstrip('\n'), players)
-attack(players)
+# players = load_players('players.txt')
+# players = map(lambda player: player.rstrip('\n'), players)
+# attack(players)
+
