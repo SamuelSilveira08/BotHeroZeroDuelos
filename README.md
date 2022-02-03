@@ -12,7 +12,7 @@ English:
 7. Then type 'python main.py'
 8. Minimize terminal window, leaving the game page fully exposed, with zoom on 100%
 9. Remember: Bot will attack every 8 minutes (because of the trophies)
-10. The first attack will take 8 minutes to be realized (so you must start the bot when you have 0 courage)
+10. The first attack will be done immediately. So be sure to have enough courage when starting bot
 11. Start the bot on duels' page to avoid bugs.
 
 Português:
@@ -29,5 +29,5 @@ Português:
 7. Agora sim, para rodar o bot, escreva no terminal 'python main.py'
 8. Minimize o terminal, deixando a tela do jogo totalmente exposta, com zoom em 100%
 9. Lembre-se: O bot vai atacar a cada 8 minutos, por causa dos troféus
-10. O primeiro ataque será feito após 8 minutos do start do bot, então gaste sua coragem antes de iniciar o bot
+10. O primeiro ataque será feito imediatamente. Então tenha coragem suficiente para o ataque quando startar o bot.
 11. Inicie o bot quando estiver na tela de duelos, para evitar bugs

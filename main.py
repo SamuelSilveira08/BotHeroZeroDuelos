@@ -27,6 +27,7 @@ def attack(players):
     for i in players:
         aux.extend(repeat(i, 3))
     for player in aux:
+        print('running {0}'.format(player))
         click_btn('img/ranking.png')
         click_btn('img/search-bar.png')
         pyautogui.moveRel(50, 0)
@@ -43,7 +44,7 @@ def attack(players):
         count += 1
         if count == 3:
             count = 0
-        time.sleep(490)
+        time.sleep(465)
 
 
 def load_players(file):
