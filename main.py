@@ -41,6 +41,7 @@ def attack(players):
         click_btn('img/attack-btn.png')
         click_btn('img/ok-btn.png')
         click_btn('img/discount.png')
+        pyautogui.click()
         count += 1
         if count == 3:
             count = 0
