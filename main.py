@@ -46,7 +46,7 @@ def attack(players):
         count += 1
         if count == 3:
             count = 0
-        time.sleep(465)
+        time.sleep(300)
 
 
 def load_players(file):
@@ -55,7 +55,7 @@ def load_players(file):
     return players
 
 
-# players = load_players('players.txt')
-# players = map(lambda player: player.rstrip('\n'), players)
-# attack(players)
+players = load_players('players.txt')
+players = map(lambda player: player.rstrip('\n'), players)
+attack(players)
 
